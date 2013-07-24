@@ -1,0 +1,8 @@
+---
+mysql_root_pass: 'root'
+mysql_datadir: '/var/lib/mysql'
+dgtuser: 'dgt'
+dgtpass: 'dgt3nfr1k1'
+dgtdb: 'cars'
+nodejs_version: ''
+

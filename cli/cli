@@ -1,0 +1,11 @@
+#TODO make this a gem to avoid this ugly LOAD_PATH stuff
+require 'pathname'
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+$LOAD_PATH.unshift Pathname.new(__FILE__).dirname.join('dgtcli').expand_path
+
+require 'thor'
+require 'dgtcli/dgtcli'
+
+Dgtcli::CLI.start 
+
+

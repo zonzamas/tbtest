@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  brand: MyString
+  model: MyString
+  horsepower: 1.5
+  number_plate: MyString
+  register_date: 2013-07-20
+  country: MyString
+  owner: MyString
+
+two:
+  brand: MyString
+  model: MyString
+  horsepower: 1.5
+  number_plate: MyString
+  register_date: 2013-07-20
+  country: MyString
+  owner: MyString
