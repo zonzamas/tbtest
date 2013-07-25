@@ -27,7 +27,6 @@ class base (
     $dgtpass = hiera('dgtpass')
     $dgtdb   = hiera('dgtdb')
     
-    #Create Mediawiki's DB
     mysql::user { $dgtuser:
       pass    => $dgtpass,
       host    => 'localhost',
